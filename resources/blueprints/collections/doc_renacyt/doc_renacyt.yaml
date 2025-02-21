@@ -1,0 +1,127 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: imagen_docente
+            field:
+              max_files: 1
+              mode: list
+              container: assets
+              restrict: false
+              allow_uploads: true
+              show_filename: true
+              show_set_alt: true
+              type: assets
+              display: 'Imagen docente'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: link
+            field:
+              type: link
+              display: Link
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+              validate:
+                - required
+          -
+            handle: nombre
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: 'Nombre docente'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              validate:
+                - required
+          -
+            handle: gmail
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: Gmail
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              validate:
+                - required
+          -
+            handle: carrera
+            field:
+              options:
+                1: Administración
+                2: 'Educación Inicial Intercultural Bilingüe'
+                3: 'Ciencia Política y Gobernabilidad'
+                4: 'Ingeniería Agroindustrial'
+                5: 'Ingeniería de Minas'
+                6: 'Ingeniería Informática y Sistemas'
+                7: 'Ingeniería Civil'
+                8: 'Ingeniería Agroecológica y Desarrollo Rural'
+                9: 'Medicina Veterinaria y Zootecnia'
+              taggable: false
+              push_tags: false
+              multiple: false
+              max_items: 1
+              clearable: false
+              searchable: true
+              cast_booleans: false
+              type: select
+              display: Carrera
+              instructions: 'Seleccione la carrera a la que pertenece el Docente'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              validate:
+                - required
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+          -
+            handle: date
+            field:
+              type: date
+              required: true
+              default: now
+              validate:
+                - required
+          -
+            handle: parent
+            field:
+              type: entries
+              collections:
+                - doc_renacyt
+              max_items: 1
+              listable: false
+              localizable: true
+title: 'Doc RENACYT'
