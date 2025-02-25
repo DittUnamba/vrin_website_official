@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1740061915
+updated_at: 1740363532
 block_types:
   -
     id: m7ap00pr
@@ -133,7 +133,8 @@ block_types:
 
         		<section id="convocatorias-relevantes" class="convocatorias-section">
         		  <div class="carousel-inner">
-        			{{ collection:blog filter="convocatoria:si" sort="date:desc" limit="2" }}
+        			{{ collection:blog sort="date:desc" limit="2" }}
+        			{{ if convocatoria == "si" }}
         			<div class="carousel-item-conv {{ if {count} == 1 }}active{{ /if }}">
         			  <img src="{{ imagen_principal | url }}" alt="{{ title }}">
         			  <div class="convocatoria-content">
@@ -142,6 +143,7 @@ block_types:
         				<a href="/blog/{{ slug }}" class="btn">Leer más</a>
         			  </div>
         			</div>
+        			{{ /if }}
         			{{ /collection:blog }}
         		  </div>
 
@@ -1410,7 +1412,7 @@ modal:
           <span class="custom-close">&times;</span>
         </div>
 
-        {{ collection:blog limit="1" sort="date:desc" }}
+        {{ collection:blog limit="1" sort'desc'}}
         {{ if modal == "si" }}
         <!-- Contenido principal del modal -->
         <div class="custom-modal-body">

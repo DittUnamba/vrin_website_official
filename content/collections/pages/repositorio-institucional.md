@@ -6,7 +6,7 @@ texto_bienvenida: Repositorio
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1735835809
+updated_at: 1740411914
 titulo_pagina: 'Repositorio - VRIN UNAMBA'
 template_imagen_fondo:
   code: |-
@@ -96,80 +96,114 @@ block_types:
             </div>
             <!----Fin Carousel---->  
         </div>
-        <!----Start Navigation Pills----> 
-        <div class="row justify-content-center ">
-            <div class="card col-lg-10 col-md-6 justify-content-center">
-                <ul class="nav nav-pills nav-pills-icons card-header justify-content-center" role="tablist">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#directiva" role="tab" data-toggle="tab">
-                        <img src="/assets/repositorio/error-documento.png"><br></img>Directivas y <br>Errores Comunes
-                        </a>
+        <!----Start Navigation Pills---->
+        <div class="row justify-content-center">
+          <div class="card col-lg-10 col-md-6 justify-content-center">
+            <ul class="nav nav-pills nav-pills-icons card-header justify-content-center" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" href="#directiva" role="tab" data-toggle="tab">
+                  <img src="/assets/repositorio/error-documento.png"><br></img>Directivas y <br>Errores Comunes
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyectos" role="tab" data-toggle="tab">
+                  <img src="/assets/repositorio/formato-proyecto.png"><br></img>Formato de <br> Proyectos
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#informes" role="tab" data-toggle="tab">
+                  <img src="/assets/repositorio/formato-informes.png"><br></img>Formatos de <br>Informes
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#guias" role="tab" data-toggle="tab">
+                  <img src="/assets/repositorio/guia-documento.png"><br></img>Guías, Estilos<br> de Redacción
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#posgrado" role="tab" data-toggle="tab">
+                  <img src="/assets/repositorio/formato-postgrado.png"><br></img>Formato de <br>Posgrado
+                </a>
+              </li>
+            </ul>
+
+            <div class="tab-content tab-space justify-content-center h4">
+              <!-- Directivas y Errores Comunes -->
+              <div class="tab-pane active" id="directiva">
+                <ul>
+                  {{ collection:info_tramite_repositorio  }}
+        		  {{ if tipo_de_documento=="errores comunes" }}
+                    <li>
+                      {{ title }} 
+                      <a href="{{ link }}" target="_blank">(clic para descargar)</a>.
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#proyectos" role="tab" data-toggle="tab">
-                        <img  src="/assets/repositorio/formato-proyecto.png"><br></img>Formato de <br> Proyectos
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#informes" role="tab" data-toggle="tab">
-                        <img  src="/assets/repositorio/formato-informes.png"><br></img>Formatos de <br>Informes
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#guias" role="tab" data-toggle="tab">
-                        <img  src="/assets/repositorio/guia-documento.png"><br></img>Guias, Estilos<br> de Redacción
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#posgrado" role="tab" data-toggle="tab">
-                        <img  src="/assets/repositorio/formato-postgrado.png"><br></img>Formato de <br>Posgrado
-                        </a>
-                    </li>
+        		  {{ /if }}
+                  {{ /collection:info_tramite_repositorio }}
                 </ul>
-                <div class="tab-content tab-space justify-content-center h4">
-                    <div class="tab-pane active" id="directiva">
-                        <li>Hoja de autorización de publicación, descargue, rellene los campos imprima, firme y ponga su huella dactilar 
-                            <a href="https://drive.google.com/file/d/1CEGXeUGg0vVGGbAoyxvXvK5GrvryWksF/view" target="_blank">(clic para descargar)</a>.
-                        </li>
-        			  	<li> Errores recurrentes
-                            <a href="https://drive.google.com/file/d/1yUA2CEBWBsgf1o181WaqmomqtHwkiNEK/view" target="_blank">(clic para descargar)</a>.
-                        </li>
-        			  	<li> Ejemplo de tablas y figuras con ISO 690
-                            <a href="https://drive.google.com/file/d/1l5CVe7F8-GY8YQsI7v4a2eW-MjC5iMvF/view" target="_blank">(clic para descargar)</a>.
-                        </li>
-        			  	<li> Formato de tablas y figuras para la Escuela Académico Profesional Medicina Veterinaria y Zootecnia
-                            <a href="https://drive.google.com/file/d/1x2h2vuwoU47j4Ibc46VLWcH1OUPJWC4K/view" target="_blank">(clic para descargar)</a>.
-                        </li>
-        <!--
-                        <li>Directiva de similitud, presentación de proyectos y tesis 
-                            <a href="https://drive.google.com/file/d/1gFabxYnR9_YqVunBZZSBfbDclrc-hn4H/view" target="_blank">(clic para ver)</a>.
-                        </li>-->
-                    </div>
-                    <div class="tab-pane" id="proyectos">
-                        <li>Proyecto cuantitativo <a href="https://docs.google.com/document/d/1iTn97ZG7o1QLXz0fslzclCBaGO131EbR/edit?usp=drive_link&ouid=115142632749044065793&rtpof=true&sd=true" target="_blank">(clic para descargar)</a>.</li>
-                        <li>Proyecto cualitativo <a href="https://docs.google.com/document/d/1O0mOMvB2ObCxQAVvpnBilfFy_ZksfEl0/edit?usp=drive_link&ouid=115142632749044065793&rtpof=true&sd=true" target="_blank">(clic para descargar)</a>.</li>
-                        <li>Proyecto de Trabajo Profesional <a href="https://docs.google.com/document/d/1_lL5pM-_BQ9-ftrlAmdaolGztV_av0gv/edit?usp=drive_link&ouid=115142632749044065793&rtpof=true&sd=true" target="_blank">(clic para descargar)</a>.</li>
-                    </div>
-                    <div class="tab-pane" id="informes">
-                        <li>Informe final de investigación cuantitativo <a href="https://docs.google.com/document/d/1jN93KjnyVHxMx0G1Kxwiee9zayfcz0X1/edit?usp=drive_link&ouid=115142632749044065793&rtpof=true&sd=true" target="_blank">(clic para descargar)</a>.</li>
-                        <li>Informe final de investigación cualitativo <a href="https://docs.google.com/document/d/1ej5Gv1GJgZLnoFcuoVePkJvSxiUkzudx/edit?usp=drive_link&ouid=115142632749044065793&rtpof=true&sd=true" target="_blank">(clic para descargar)</a>.</li>
-                        <li>Informe final de trabajo profesional <a href="https://docs.google.com/document/d/1l9VCsWA6YIdcOkwM4YRzyY4Rp59789rS/edit?usp=drive_link&ouid=115142632749044065793&rtpof=true&sd=true" target="_blank">(clic para descargar)</a>.</li>
-                    </div>
-                    <div class="tab-pane" id="guias">
-                        <li>ISO 690 para ingenierías <a href="https://www.iso.org/sites/directives/current/part2/index.xhtml" target="_blank">(clic para descargar)</a>.</li>
-                        <li>APA para Sociales <a href="https://normas-apa.org/estructura/tablas/" target="_blank">(clic para descargar)</a>.</li>
-                        <li>Vancouver , para MVZ <a href="https://drive.google.com/file/d/1_Co8cqjeeDVZqGXZWdhOxiy_lS2m_mVC/view" target="_blank">(clic para descargar)</a>.</li>
-                    </div>
-                    <div class="tab-pane" id="posgrado">
-                        <li>Proyecto cuantitativo <a href="/assets/repositorio/01_formato-de-proyecto--cuantitativo-epg-(2).docx" target="_blank">(clic para descargar)</a>.</li>
-                        <li>Proyecto cualitativo <a href="/assets/repositorio/02_formato-de-proyecto-cualitativo-epg-(2).docx" target="_blank">(clic para descargar)</a>.</li>
-                        <li>Informe cuantitativo <a href="/assets/repositorio/04_formato-informe-final--cuantitativo-epg-(1).docx" target="_blank">(clic para descargar)</a>.</li>
-                        <li>Informe cualitativo <a href="/assets/repositorio/03_formato-informe-final--cualitativo-epg-(1).docx" target="_blank">(clic para descargar)</a>.</li>
-                    </div>
-                </div>
+              </div>
+
+              <!-- Formato de Proyectos -->
+              <div class="tab-pane" id="proyectos">
+                <ul>
+                  {{ collection:info_tramite_repositorio }}
+        		  {{ if tipo_de_documento=="formatos de proyectos" }}
+                    <li>
+                      {{ title }} 
+                      <a href="{{ link }}" target="_blank">(clic para descargar)</a>.
+                    </li>
+        		  {{ /if }}
+                  {{ /collection:info_tramite_repositorio }}
+                </ul>
+              </div>
+
+              <!-- Formatos de Informes -->
+              <div class="tab-pane" id="informes">
+                <ul>
+                  {{ collection:info_tramite_repositorio }}
+        		  {{ if tipo_de_documento=="formatos de informes" }}
+                    <li>
+                      {{ title }} 
+                      <a href="{{ link }}" target="_blank">(clic para descargar)</a>.
+                    </li>
+        		  {{ /if }}
+                  {{ /collection:info_tramite_repositorio }}
+                </ul>
+              </div>
+
+              <!-- Guías, Estilos de Redacción -->
+              <div class="tab-pane" id="guias">
+                <ul>
+                  {{ collection:info_tramite_repositorio }}
+        		  {{ if tipo_de_documento=="estilos de redaccion" }}
+                    <li>
+                      {{ title }} 
+                      <a href="{{ link }}" target="_blank">(clic para descargar)</a>.
+                    </li>
+        		  {{ /if }}
+                  {{ /collection:info_tramite_repositorio }}
+                </ul>
+              </div>
+
+              <!-- Formato de Posgrado -->
+              <div class="tab-pane" id="posgrado">
+                <ul>
+                  {{ collection:info_tramite_repositorio }}
+        		  {{ if tipo_de_documento=="formato de posgrado" }}
+                    <li>
+                      {{ title }} 
+                      <a href="{{ link }}" target="_blank">(clic para descargar)</a>.
+                    </li>
+        		  {{ /if }}
+                  {{ /collection:info_tramite_repositorio }}
+                </ul>
+              </div>
             </div>
+          </div>
+        </div>
+        <!----End Navigation Pills---->
+
             <!--Inicio contacto repositorio--->
-            <div class="card col-lg-8 col-md-6 justify-content-center">
+            <div class="card-contacto col-lg-8 col-md-6 justify-content-center">
                 <h1 class="text-center">Contáctanos</h1>
                 <br>
                 <div class="card card-plain ">
@@ -193,6 +227,13 @@ block_types:
             </div>
             <!--Fin contacto repositorio--->
         </div>
+
+        <style>
+            .card-contacto {
+                align-items: center;
+                left: 180px;
+            }
+        </style>
       mode: htmlmixed
     type: template
     enabled: true

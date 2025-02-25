@@ -67,6 +67,7 @@ data:
                     <a href="/alumnos-investigadores" class="dropdown-item">Alumnos Investigadores</a>
                     <a href="/lineas-de-investigacion" class="dropdown-item">Líneas de Investigación</a>
                     <a href="/unidades-de-investigacion" class="dropdown-item">Unidades de Investigación</a>
+                    <a href="/grupos-de-investigacion" class="dropdown-item">Grupos de Investigación</a>
                 </div>
             </li>
             <li class="nav-item">

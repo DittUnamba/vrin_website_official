@@ -1,0 +1,53 @@
+tabs:
+  main:
+    display: Principal
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: tipo_de_documento
+            field:
+              options:
+                -
+                  key: 'errores comunes'
+                  value: 'Directivas y errores comunes'
+                -
+                  key: 'formatos de proyectos'
+                  value: 'Formatos de Proyectos'
+                -
+                  key: 'formatos de informes'
+                  value: 'Formatos de Informes'
+                -
+                  key: 'estilos de redaccion'
+                  value: 'Guías, estilos de redacción'
+                -
+                  key: 'formato de posgrado'
+                  value: 'Formato de Posgrado'
+              type: select
+              display: 'Tipo de documento'
+              instructions: 'Seleccione el tipo de documento que subirá.'
+          -
+            handle: link
+            field:
+              type: text
+              display: link
+              instructions: 'Ingrese el link del documento que subirá.'
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+title: 'Info tramite repositorio'

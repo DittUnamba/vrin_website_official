@@ -200,7 +200,7 @@ block_types:
                 </div>
             </div>
         </div>
-        <style>
+        <!--<style>
                     .news-carousel {
                         display: flex;
                         justify-content: center;
@@ -651,9 +651,9 @@ block_types:
                     background-color: rgba(0, 0, 0, 0.8);
                     }
         
-              </style>
+              </style>-->
         
-              <div style="font-size: 1.5rem; color: #000; margin-top: 40px; font-family: "Roboto", "Helvetica", "Arial", sans-serif; text-align: center;">
+              <!--<div style="font-size: 1.5rem; color: #000; margin-top: 40px; font-family: "Roboto", "Helvetica", "Arial", sans-serif; text-align: center;">
                 <h2 style="font-weight: bold; text-align: center; font-family: "Roboto", "Helvetica", "Arial", sans-serif;">Dirección de Innovación y Transferencia Tecnológica</h2>
               </div>
               <hr>
@@ -672,12 +672,12 @@ block_types:
                     <div class="direccion-container">
                         
                         <div class="direccion-row">
-                        <!-- Imagen del director -->
+      
                         <div class="direccion-image-wrapper">
                             <div class="direccion-image-background"></div>
                             <img src="{{imagen}}" alt="Director de Innovación" class="direccion-image">
                         </div>
-                        <!-- Información textual -->
+
                         <div class="direccion-content">
                             <h3 class="direccion-subtitle">{{cargo_direccion}}</h3>
                             <p class="direccion-description" style="font-size: 20px;">
@@ -700,7 +700,7 @@ block_types:
                         <div class="unidades-carousel">
                             <button class="unidades-arrow left" onclick="moveUnidades(-1)">❮</button>
                                 <div class="unidades-container">
-                                <!-- Unidad 1 -->
+         
                                 <div class="unidad-item">
                                     <div class="unidad-content">
                                     <h3 class="unidad-title" style="margin-left: 20px; font-size: 24px;">Unidad de Repositorio Institucional</h3>
@@ -717,7 +717,7 @@ block_types:
                                     <img src="/assets/fotos_vrin/mir_2098.jpg" alt="Jefe Unidad" class="unidad-image">
                                     </div>
                                 </div>
-                                <!-- Unidad 2 -->
+       
                                 <div class="unidad-item">
                                     <div class="unidad-content">
                                     <h3 class="unidad-title" style="font-size: 24px;">Unidad de Propiedad Intelectual</h3>
@@ -736,91 +736,14 @@ block_types:
                                 </div>
                                 </div>
                                 <button class="unidades-arrow right" onclick="moveUnidades(1)">❯</button>
-        
-                            
-                            <!--<button class="unidades-arrow left" onclick="moveUnidades(-1)">❮</button>
-                            <div class="unidades-container">
-        
-                            <div class="unidad-item">
-                                <div class="unidad-content">
-                                <h3 class="unidad-title" style="max-width: 70%; margin-left: 60px;">Unidad de Repositorio Institucional</h3>
-                                <p class="unidad-description" style="max-width: 70%; margin-left: 60px;">
-                                    Nos enfocamos en impulsar la gestión y preservación de los recursos académicos y científicos producidos en la universidad, garantizando el acceso abierto y la visibilidad global.
-                                </p>
-                                
-                                <p class="unidad-contact" style="max-width: 70%; margin-left: 60px;">
-                                    <b>Correo:</b> repositorio@unamba.edu.pe<br>
-                                    <b>Oficina:</b> Biblioteca General, 2° Piso
-                                </p>
-                                <a href="#funciones-unidad" class="unidad-button" data-toggle="modal" data-target="#exampleModalScrollableUnidad" style="max-width: 70%; margin-left: 60px;">Ver funciones</a>
-                                </div>
-                                <div class="unidad-image-wrapper"  style="box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);">
-                                <img src="/assets/fotos_vrin/mir_2100.jpg" alt="Jefe Unidad" class="unidad-image" style="max-width: 60%; height: 300px;">
-                                </div>
-                            </div>-->
-                            <!-- Más unidades aquí -->
-                            <!--<div class="unidad-item">
-                                <div class="unidad-content">
-                                <h3 class="unidad-title" style="max-width: 70%; margin-left: 60px;">Unidad de Propiedad Intelectual</h3>
-                                <p class="unidad-description" style="max-width: 70%; margin-left: 60px;">
-                                    Nos enfocamos en promover el registro de patentes y protección de propiedad intelectual de los investigadores; gestionar la protección intelectual y registro de patentes que se originen como resultado de las investigaciones.
-                                </p>
-                                <p class="unidad-contact" style="max-width: 70%; margin-left: 60px;">
-                                    <b>Correo:</b> patentes@unamba.edu.pe<br>
-                                    <b>Oficina:</b> Biblioteca General, 2° Piso
-                                </p>
-                                <a href="#funciones-unidad" class="unidad-button" data-toggle="modal" data-target="#exampleModalScrollableUnidad" style="max-width: 70%; margin-left: 60px;">Ver funciones</a>
-                                </div>
-                                <div class="unidad-image-wrapper"  style="">
-                                <img src="/assets/fotos_vrin/mir_2090.jpg" alt="Jefe Unidad" class="unidad-image">
-                                </div>
-                            </div>
-                            </div>
-                            <button class="unidades-arrow right" onclick="moveUnidades(1)">❯</button>-->
                         </div>
                         </div>
-        
-                    <!--servicios-->
+
                     <div class="container text-center">
                         <br>
                         <h2 style="font-weight: bold; text-align: center; font-family: "Roboto", "Helvetica", "Arial", sans-serif;; font-size: 1.8rem;">Nuestros Servicios</h2>
-                        <!-- <div class="section ">
-                            <div class="team">
-                                <div class="row">
-                                    <div class="feat-item mb-md50 col-lg-4">
-                                        <div class="feat-item mb-md50 col-lg-4">
-                                            <div class="text-center">
-                                                <figure class="wp-block-image size-full">
-                                                    <a href="https://www.unamba.edu.pe/transparencia/transparencia-universitaria/cuerpo-docente/lista-de-docentes-investigadores.html" target="_blank" rel="noreferrer noopener">
-                                                    <img src="/assets/direcciones/innovacion/investigadores.png" alt="">
-                                                    </a>
-                                                </figure>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="feat-item active mb-md50 col-lg-4">
-                                        <div class="text-center">
-                                            <figure class="wp-block-image size-full">
-                                                <a href="/reglamentos"target="_blank" rel="noreferrer noopener">
-                                                <img src="/assets/direcciones/innovacion/normatividad.png" alt="">
-                                                </a>
-                                            </figure>
-                                        </div>
-                                    </div>
-                                    <div class="feat-item mb-md50 col-lg-4">
-                                        <div class="text-center">
-                                            <figure class="wp-block-image size-full is-resized">
-                                                <a href="https://www.unamba.edu.pe/transparencia/transparencia-universitaria/proyectos-de-investigacion.html" target="_blank" rel="noreferrer noopener">
-                                                <img src="/assets/direcciones/innovacion/project-investigacion.png" alt="">
-                                                </a>
-                                            </figure>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>-->
-        
-                        <!--  herramientas de Busqueda unamba -->
+                       
+  
                                       <div class="row">
                                           <div class="col-md-4 ml-auto mr-auto text-center">
                                               <div class="card card-profile">
@@ -861,49 +784,7 @@ block_types:
                                       </div>
                                   </div>
                               </div>
-        
-        
-        
-                        <!-- REPOSITORIO-->
-                        <!--<div class="container text-center">
-                            <br>
-                            <h2 class="title">Revisa nuestros Repositorios</h2>
-                            <div class="section ">
-                                <div class="team">
-                                    <div class="row">
-                                        <div class="feat-item mb-md50 col-lg-4">
-                                            <div class="feat-item mb-md50 col-lg-4">
-                                                <div class="text-center">
-                                                    <figure class="wp-block-image size-full">
-                                                        <a href="https://repositorio.unamba.edu.pe/" target="_blank" rel="noreferrer noopener">
-                                                        <img src="/assets/direcciones/innovacion/repositorio-insti.png" alt="repositorio">
-                                                        </a>
-                                                    </figure>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="feat-item active mb-md50 col-lg-4">
-                                            <div class="text-center">
-                                                <figure class="wp-block-image size-full">
-                                                    <a href="https://revistas.unamba.edu.pe/" target="_blank" rel="noreferrer noopener">
-                                                    <img src="/assets/direcciones/innovacion/revista-cientifica.png" alt="revista">
-                                                    </a>
-                                                </figure>
-                                            </div>
-                                        </div>
-                                        <div class="feat-item mb-md50 col-lg-4">
-                                            <div class="text-center">
-                                                <figure class="wp-block-image size-full">
-                                                    <a href="https://sites.google.com/unamba.edu.pe/vrin/fondo-editorial" target="_blank" rel="noreferrer noopener">
-                                                    <img src="/assets/direcciones/innovacion/fondo-editorial.png" alt="fondo-editorial">
-                                                    </a>
-                                                </figure>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
+    
                         <hr>
                         <div>
                             <h2 style="font-weight: bold; text-align: center; font-family: "Roboto", "Helvetica", "Arial", sans-serif;; font-size: 1.8rem;">Actividades de la Dirección</h2>
@@ -928,9 +809,9 @@ block_types:
                     </div>
         
                 </div>
-               </div>
+               </div>-->
         
-                <script>
+                <!--<script>
                 /*let currentUnidadIndex = 0;
         
                 function moveUnidades(direction) {
@@ -1026,7 +907,7 @@ block_types:
                         slide.style.transform = `translateX(-${currentIndex * 100}%)`;
                         });
                     }*/
-                </script>
+                </script>-->
       mode: htmlmixed
     type: Director_jefes_produccion_bienes_y_servicios
     enabled: true
