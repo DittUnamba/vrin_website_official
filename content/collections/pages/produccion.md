@@ -6,21 +6,21 @@ texto_bienvenida: 'Dirección de Producción de Bienes y Servicios'
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1725289836
+updated_at: 1740582876
 titulo_pagina: 'Dirección de Producción de Bienes y Servicios - VRIN UNAMBA'
 block_types:
   -
     id: lkdgq6ld
-    imagen_director: direcciones/produccion/ernesto.jpeg
-    nombre_director: 'Dr. Alex Muñoz Cáceres'
-    direccion_oficina: 'AULA 305, PABELLÓN DE AULAS GENERALES.'
+    imagen_director: dr_ivan.jpg
+    nombre_director: 'Dr. Julio Ivan Cruz Colque'
+    direccion_oficina: 'Pasaje El Judista S/N - Referencia: Al costado de la Corte'
     imagen_ci: direcciones/produccion/idiomas.png
     nombre_ci: 'C.P.C. Dina E. Trujillo Huaysara'
-    direccion_oficina_ci: 'Aula 305, Pabellón Aulas Generales'
+    direccion_oficina_ci: 'Pasaje El Judista S/N - Referencia: Al costado de la Corte'
     horario_ci: '8:00 a.m. – 1:00 pm. y 2:00 pm. – 3:30 pm.'
     imagen_cii: direcciones/produccion/informatica.png
     nombre_cii: 'Ing. Aurelio Antezana Matensio'
-    direccion_oficina_cii: 'Aula 305, Pabellón Aulas Generales'
+    direccion_oficina_cii: 'Pasaje El Judista S/N - Referencia: Al costado de la Corte'
     horario_cii: '8:00 a.m. – 1:00 pm. y 2:00 pm. – 3:30 pm.'
     imagen_ce: direcciones/produccion/experimental.png
     nombre_ce: 'Luis Gregorio Ibañez Trelles'
@@ -208,13 +208,13 @@ block_types:
                         overflow: hidden;
                         position: relative;
                     }
-        
+
                     .news-carousel .carousel-container {
                         display: flex;
                         gap: 20px;
                         transition: transform 0.5s ease-in-out;
                     }
-        
+
                     .news-carousel .news-item{
                         width: 400px;
                         height: auto;
@@ -228,12 +228,12 @@ block_types:
                         margin-left: 10px;
                         margin-top: 30px;
                     }
-        
+
                     .news-carousel .news-item:hover{
                         transform: scale(1.1);
                         z-index: 1; /* Asegurar que el elemento ampliado esté encima */
                     }
-        
+
                     .news-item img-act {
                         max-width: 1000px;
                         height: auto;
@@ -247,28 +247,28 @@ block_types:
                         margin-left: 10px;
                         margin-top: 30px;    
                     }
-        
+
                     .news-item img-act {
                         transform: scale(1.1);
                         z-index: 1; /* Asegurar que el elemento ampliado esté encima */
                     }
-        
+
                     .news-carousel img {
                         width: 100%;
                         border-radius: 10px;
                         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
                     }
-        
+
                     .news-carousel .news-content {
                         margin-top: 10px;
                     }
-        
+
                     .news-carousel .news-content h4 {
                         font-size: 18px;
                         font-weight: bold;
                         color: #2c3e50;
                     }
-        
+
                     .news-carousel .news-content a {
                         display: inline-block;
                         margin-top: 10px;
@@ -278,11 +278,11 @@ block_types:
                         text-decoration: none;
                         border-radius: 5px;
                     }
-        
+
                     .news-carousel .news-content a:hover {
                         background-color: #1a5276;
                     }
-        
+
                     .news-carousel .arrow {
                         position: absolute;
                         top: 50%;
@@ -295,20 +295,20 @@ block_types:
                         cursor: pointer;
                         z-index: 10;
                     }
-        
+
                     .news-carousel .arrow.left {
                         left: 10px;
                     }
-        
+
                     .news-carousel .arrow.right {
                         right: 10px;
                     }
-        
+
                     .news-carousel .bottom-button {
                         text-align: center;
                         margin-top: 30px; /* Más espacio para separar el botón */
                     }
-        
+
                     .news-carousel .bottom-button a {
                         padding: 10px 20px;
                         background-color: #2980b9;
@@ -322,7 +322,7 @@ block_types:
                         text-align: center;
                         margin-bottom: 30px;
                     }
-        
+
                     .section-header h2 {
                         font-size: 2.5rem;
                         color: #000;
@@ -330,13 +330,13 @@ block_types:
                         margin-top: 30px;
                         font-weight: bold;
                     }
-        
+
                     .section-header p {
                         font-size: 1rem;
                         color: #555;
                         margin: 0;
                     }
-        
+
                     .section-header h2::after {
                         content: '';
                         display: block;
@@ -353,11 +353,11 @@ block_types:
                         max-width: 1100px;
                         margin: auto;
                     }
-        
+
                     .carousel-slide {
                     display: flex;
                     max-width: 1100px;
-        
+
                     }
                     .carousel-slide img {
                         width: 100%;
@@ -365,7 +365,7 @@ block_types:
                         object-fit: cover;
                         margin-left: 100px
                     }
-        
+
                     /* Navigation Buttons */
                     .carousel-button {
                         position: absolute;
@@ -384,19 +384,19 @@ block_types:
                     align-items: center;
                     z-index: 10;
                     }
-        
+
                     .custom-carousel .carousel-button.left {
                         left: 15px;
                     }
-        
+
                     .custom-carousel .carousel-button.right {
                         right: 15px;
                     }
-        
+
                     .custom-carousel .carousel-button:hover {
                         background-color: rgba(0, 0, 0, 0.8);
                     }
-        
+
                     /* Indicators */
                     .custom-carousel .carousel-indicators {
                         position: absolute;
@@ -407,7 +407,7 @@ block_types:
                         display: flex;
                         gap: 10px;
                     }
-        
+
                     .custom-carousel .carousel-indicators button {
                         width: 12px;
                         height: 12px;
@@ -416,7 +416,7 @@ block_types:
                         border-radius: 50%;
                         cursor: pointer;
                     }
-        
+
                     .custom-carousel .carousel-indicators button.active {
                         background-color: white;
                     }
@@ -428,18 +428,18 @@ block_types:
                         background-color: #b22222;
                         margin: 10px auto 0;
                     }
-        
+
                     .direccion-section {
                     padding: 40px 20px;
                     /*background-color: #f9f9f9;*/
                     background-color: #fff;
                     }
-        
+
                     .direccion-container {
                     max-width: 1200px;
                     margin-top: 20px;;
                     }
-        
+
                     .direccion-title {
                     text-align: center;
                     font-size: 2rem;
@@ -447,21 +447,21 @@ block_types:
                     color: #333;
                     margin-bottom: 40px;
                     }
-        
+
                     .direccion-row {
                     display: flex;
                     flex-wrap: wrap;
                     align-items: center;
                     justify-content: space-between;
                     }
-        
+
                     .direccion-image-wrapper {
                     position: relative;
                     flex: 1;
                     max-width: 40%;
                     text-align: center;
                     }
-        
+
                     .direccion-image-background {
                     position: absolute;
                     bottom: 20px;
@@ -472,7 +472,7 @@ block_types:
                     border-radius: 8px;
                     z-index: 1;
                     }
-        
+
                     .direccion-image {
                     position: relative;
                     z-index: 2;
@@ -483,32 +483,32 @@ block_types:
                     border-radius: 8px;
                     object-fit: cover;
                     }
-        
+
                     .direccion-content {
                     flex: 1;
                     max-width: 55%;
                     }
-        
+
                     .direccion-subtitle {
                     font-size: 24px;
                     font-weight: bold;
                     color: #333;
                     margin-bottom: 20px;
                     }
-        
+
                     .direccion-description {
                     font-size: 16px;
                     line-height: 1.6;
                     color: #555;
                     margin-bottom: 20px;
                     }
-        
+
                     .direccion-contact {
                     font-size: 14px;
                     color: #555;
                     margin-bottom: 30px;
                     }
-        
+
                     .direccion-button {
                     display: inline-block;
                     padding: 10px 20px;
@@ -519,19 +519,19 @@ block_types:
                     border-radius: 5px;
                     transition: background-color 0.3s ease;
                     }
-        
+
                     .direccion-button:hover {
                     background-color: #4a148c;
                     color: white;
                     }
-        
+
                     body, html {
                     margin: 0; /* Elimina cualquier margen del cuerpo y del HTML */
                     padding: 0; /* Elimina cualquier padding del cuerpo y del HTML */
                     overflow-x: hidden; /* Evita que se pueda desplazar horizontalmente */
                     }
                    
-        
+
                     /* Estilos generales */
                     .unidades-section {
                     padding: 40px 20px;
@@ -540,7 +540,7 @@ block_types:
                     position: relative;
                     margin: 0 auto;
                     }
-        
+
                     .unidades-title {
                     text-align: center;
                     font-size: 2rem;
@@ -548,7 +548,7 @@ block_types:
                     color: #333;
                     margin-bottom: 40px;
                     }
-        
+
                     .unidades-carousel {
                     display: flex;
                     align-items: center;
@@ -556,13 +556,13 @@ block_types:
                     max-width: 100%;
                     overflow: hidden;
                     }
-        
+
                     .unidades-container {
                     display: flex;
                     transition: transform 0.5s ease-in-out;
                     gap: 20px;
                     }
-        
+
                     .unidad-item {
                     margin-left: 20px;
                     display: flex;
@@ -572,33 +572,33 @@ block_types:
                     /*background-color: #e6e6e6;*/
                     border-radius: 8px;
                     padding: 20px;
-        
+
                     }
-        
+
                     .unidad-content {
                     flex: 0 0 50%;
                     padding-right: 20px;
                     }
-        
+
                     .unidad-title {
                     font-size: 20px;
                     font-weight: bold;
                     color: #333;
                     margin-bottom: 10px;
                     }
-        
+
                     .unidad-description {
                     font-size: 16px;
                     color: #555;
                     margin-bottom: 20px;
                     }
-        
+
                     .unidad-contact {
                     font-size: 14px;
                     color: #555;
                     margin-bottom: 20px;
                     }
-        
+
                     .unidad-button {
                     padding: 10px 20px;
                     font-size: 14px;
@@ -607,16 +607,16 @@ block_types:
                     text-decoration: none;
                     border-radius: 5px;
                     }
-        
+
                     .unidad-button:hover {
                     background-color: #4a148c;
                     }
-        
+
                     .unidad-image-wrapper {
                     flex: 0 0 50%;
                     text-align: center;
                     }
-        
+
                     .unidad-image {
                     max-width: 100%;
                     height: 400px;
@@ -624,7 +624,7 @@ block_types:
                     object-fit: cover;
                     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.15);
                     }
-        
+
                     /* Botones de navegación */
                     .unidades-arrow {
                     position: absolute;
@@ -638,21 +638,21 @@ block_types:
                     cursor: pointer;
                     z-index: 10;
                     }
-        
+
                     .unidades-arrow.left {
                     left: 10px;
                     }
-        
+
                     .unidades-arrow.right {
                     right: 10px;
                     }
-        
+
                     .unidades-arrow:hover {
                     background-color: rgba(0, 0, 0, 0.8);
                     }
-        
+
               </style>-->
-        
+
               <!--<div style="font-size: 1.5rem; color: #000; margin-top: 40px; font-family: "Roboto", "Helvetica", "Arial", sans-serif; text-align: center;">
                 <h2 style="font-weight: bold; text-align: center; font-family: "Roboto", "Helvetica", "Arial", sans-serif;">Dirección de Innovación y Transferencia Tecnológica</h2>
               </div>
@@ -665,14 +665,14 @@ block_types:
                     </div>
                 <button class="carousel-button left" onclick="moveSlide(-1)">❮</button>
                 <button class="carousel-button right" onclick="moveSlide(1)">❯</button>
-        
+
                 </div>
-        
+
                 <div class="direccion-section">
                     <div class="direccion-container">
                         
                         <div class="direccion-row">
-      
+
                         <div class="direccion-image-wrapper">
                             <div class="direccion-image-background"></div>
                             <img src="{{imagen}}" alt="Director de Innovación" class="direccion-image">
@@ -693,7 +693,7 @@ block_types:
                         </div>
                     </div>
                     </div>
-        
+
                     <h2 style="font-weight: bold; text-align: center; font-family: "Roboto", "Helvetica", "Arial", sans-serif;; font-size: 1.8rem;">Conoce nuestras Unidades</h2>
                     <div class="unidades-section">
                         
@@ -717,7 +717,7 @@ block_types:
                                     <img src="/assets/fotos_vrin/mir_2098.jpg" alt="Jefe Unidad" class="unidad-image">
                                     </div>
                                 </div>
-       
+
                                 <div class="unidad-item">
                                     <div class="unidad-content">
                                     <h3 class="unidad-title" style="font-size: 24px;">Unidad de Propiedad Intelectual</h3>
@@ -743,7 +743,7 @@ block_types:
                         <br>
                         <h2 style="font-weight: bold; text-align: center; font-family: "Roboto", "Helvetica", "Arial", sans-serif;; font-size: 1.8rem;">Nuestros Servicios</h2>
                        
-  
+
                                       <div class="row">
                                           <div class="col-md-4 ml-auto mr-auto text-center">
                                               <div class="card card-profile">
@@ -784,7 +784,7 @@ block_types:
                                       </div>
                                   </div>
                               </div>
-    
+
                         <hr>
                         <div>
                             <h2 style="font-weight: bold; text-align: center; font-family: "Roboto", "Helvetica", "Arial", sans-serif;; font-size: 1.8rem;">Actividades de la Dirección</h2>
@@ -807,69 +807,69 @@ block_types:
                         </div>
                         <button class="arrow right" onclick="moveCarousel(1)">❯</button>
                     </div>
-        
+
                 </div>
                </div>-->
-        
+
                 <!--<script>
                 /*let currentUnidadIndex = 0;
-        
+
                 function moveUnidades(direction) {
                 const unidadesContainer = document.querySelector('.unidades-container');
                 const unidadItems = document.querySelectorAll('.unidad-item');
                 const totalUnidades = unidadItems.length;
-        
+
                 currentUnidadIndex = (currentUnidadIndex + direction + totalUnidades) % totalUnidades;
-        
+
                 unidadesContainer.style.transform = `translateX(-${currentUnidadIndex * 100}%)`;
                 }
                 */
                 
                 let currentUnidadIndex = 0;
-        
+
                 // Función para mover el carrusel
                 function moveUnidades(direction) {
                 const unidadesContainer = document.querySelector('.unidades-container');
                 const unidadItems = document.querySelectorAll('.unidad-item');
                 const totalUnidades = unidadItems.length;
-        
+
                 // Calcula el nuevo índice
                 currentUnidadIndex = (currentUnidadIndex + direction + totalUnidades) % totalUnidades;
-        
+
                 // Cambia la posición del contenedor
                 unidadesContainer.style.transform = `translateX(-${currentUnidadIndex * 100}%)`;
                 }
-        
+
                 // Desplazamiento automático cada 5 segundos
                 setInterval(() => {
                 moveUnidades(1);
                 }, 5000);
                 
-        
+
                 const carouselSlide = document.querySelector('.carousel-slide');
                 const slides = document.querySelectorAll('.carousel-slide img');
                 const indicators = document.querySelectorAll('.carousel-indicators button');
-        
+
                 let currentIndex = 0;
-        
+
                 function updateIndicators() {
                     indicators.forEach((indicator, index) => {
                     indicator.classList.toggle('active', index === currentIndex);
                     });
                 }
-        
+
                 function moveSlide(direction) {
                     currentIndex = (currentIndex + direction + slides.length) % slides.length;
                     carouselSlide.style.transform = `translateX(-${currentIndex * 100}%)`;
                     updateIndicators();
                 }
-        
+
                 function goToSlide(index) {
                     currentIndex = index;
                     carouselSlide.style.transform = `translateX(-${currentIndex * 100}%)`;
                     updateIndicators();
                 }
-        
+
                 // Optional: Auto-slide every 5 seconds
                 /*setInterval(() => {
                     moveSlide(1);
@@ -879,30 +879,30 @@ block_types:
                 let currentIndex = 0;
                 const itemsToShow = 3;
                 const totalItems = document.querySelectorAll('.news-item').length;
-        
+
                 function moveCarousel(direction) {
                     const itemWidth = document.querySelector('.news-item').offsetWidth + 20; // Width + gap
                     const maxIndex = Math.ceil(totalItems / itemsToShow) - 1;
-        
+
                     currentIndex += direction;
-        
+
                     if (currentIndex < 0) {
                         currentIndex = maxIndex;
                     } else if (currentIndex > maxIndex) {
                         currentIndex = 0;
                     }
-        
+
                     carousel.style.transform = `translateX(-${currentIndex * itemWidth * itemsToShow}px)`;
                 }
                 // Slide Functionality
                     let currentIndex = 0;
-        
+
                     function moveSlide(direction) {
                         const slides = document.querySelectorAll('.image-carousel img');
                         const totalSlides = slides.length;
-        
+
                         currentIndex = (currentIndex + direction + totalSlides) % totalSlides;
-        
+
                         slides.forEach((slide, index) => {
                         slide.style.transform = `translateX(-${currentIndex * 100}%)`;
                         });
@@ -914,17 +914,17 @@ block_types:
     cargo_director: 'Director de Producción de Bienes y Servicios'
 template_imagen_fondo:
   code: |-
-   <!-- <div class="page-header header-filter " data-parallax="true" style="background-image: url('/assets/direcciones/produccion/produccion1.jpg');">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 ml-auto mr-auto">
-                    <div class="brand">
-                        <h1 class="title">{{texto_bienvenida}}</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>-->
+    <!-- <div class="page-header header-filter " data-parallax="true" style="background-image: url('/assets/direcciones/produccion/produccion1.jpg');">
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-8 ml-auto mr-auto">
+                     <div class="brand">
+                         <h1 class="title">{{texto_bienvenida}}</h1>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>-->
   mode: htmlmixed
 modal:
   code: |-

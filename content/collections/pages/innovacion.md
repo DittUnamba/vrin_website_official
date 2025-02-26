@@ -542,7 +542,7 @@ block_types:
                         <!-- Unidad 2 -->
                         <div class="unidad-item">
                             <div class="unidad-content">
-                            <h3 class="unidad-title" style="font-size: 24px;">Unidad de Propiedad Intelectual</h3>
+                            <h3 class="unidad-title" style="font-size: 24px;">Unidad Funcional de Propiedad Intelectual</h3>
                             <p class="unidad-description" style="font-size: 20px;">
                                 Nos enfocamos en promover el registro de patentes y protección de propiedad intelectual de los investigadores; gestionar la protección intelectual y registro de patentes que se originen como resultado de las investigaciones.
                             </p>
