@@ -306,22 +306,22 @@ block_types:
                     <section id="gallery">
                       <div class="gallery-container">
                           <figure class="gallery-item">
-                              <img src="assets/fotos_vrin/mir_2175.jpg" alt="Imagen 1">
+                              <img src="assets/fotos_vrin_redimensionado/mir_2175.jpg" alt="Imagen 1">
                   <!--             <figcaption>Descripción de la imagen 1</figcaption> -->
                           </figure>
 
                           <figure class="gallery-item">
-                              <img src="assets/fotos_vrin/mir_2192.jpg" alt="Imagen 2">
+                              <img src="assets/fotos_vrin_redimensionado/mir_2192.jpg" alt="Imagen 2">
                   <!--             <figcaption>Descripción de la imagen 2</figcaption> -->
                           </figure>
 
                           <figure class="gallery-item">
-                              <img src="assets/fotos_vrin/mir_2236.jpg" alt="Imagen 3">
+                              <img src="assets/fotos_vrin_redimensionado/mir_2236.jpg" alt="Imagen 3">
                   <!--             <figcaption>Descripción de la imagen 3</figcaption> -->
                           </figure>
                           
                           <figure class="gallery-item">
-                              <img src="assets/fotos_vrin/mir_2249.jpg" alt="Imagen 4">
+                              <img src="assets/fotos_vrin_redimensionado/mir_2253.jpg" alt="Imagen 4">
                   <!--             <figcaption>Descripción de la imagen 4</figcaption> -->
                           </figure>
                       </div>
@@ -446,7 +446,7 @@ block_types:
                         <div class="tab-content mt-4">
                         <!-- Dirección de Innovación y Transferencia Tecnológica -->
                           <div id="ditt" class="tab-pane active">
-                            <img src="assets/fotos_vrin/mir_2188.jpg" alt="Innovación y Transferencia Tecnológica">
+                            <img src="assets/fotos_vrin_redimensionado/mir_2188.jpg" alt="Innovación y Transferencia Tecnológica">
                             <h4 style="text-align: center;">Dirección de Innovación y Transferencia Tecnológica</h4>
                             <p>Esta dirección se encarga de promover la innovación y la transferencia de tecnología, fomentando la colaboración entre la universidad y el sector productivo.</p>
                             <a href="/innovación" target="_blank">Ir a la página de la dirección <i class="fa fa-external-link"></i></a>
@@ -454,7 +454,7 @@ block_types:
                           
                       <!-- Dirección de Incubadora de Empresas -->
                         <div id="die" class="tab-pane">
-                          <img src="assets/fotos_vrin/mir_2199.jpg" alt="Incubadora de Empresas">
+                          <img src="assets/fotos_vrin_redimensionado/mir_2199.jpg" alt="Incubadora de Empresas">
                           <h4 style="text-align: center;">Dirección de Incubadora de Empresas</h4>
                           <p>La Dirección de Incubadora de Empresas apoya el emprendimiento y el desarrollo de nuevas empresas, brindando asesoría y recursos para su crecimiento.</p>
                           <a href="/incubadora" target="_blank">Ir a la página de la dirección <i class="fa fa-external-link"></i></a>
@@ -462,7 +462,7 @@ block_types:
                         
                       <!-- Dirección de Institutos de Investigación -->
                         <div id="diin" class="tab-pane">
-                          <img src="assets/fotos_vrin/mir_2183.jpg" alt="Institutos de Investigación">
+                          <img src="assets/fotos_vrin_redimensionado/mir_2183.jpg" alt="Institutos de Investigación">
                           <h4 style="text-align: center;">Dirección de Institutos de Investigación</h4>
                           <p>La Dirección de Institutos de Investigación coordina y supervisa las actividades de los diversos institutos de investigación de la universidad, fomentando la excelencia académica.</p>
                           <a href="/institutos" target="_blank">Ir a la página de la dirección <i class="fa fa-external-link"></i></a>
@@ -470,7 +470,7 @@ block_types:
                         
                       <!-- Dirección de Producción de Bienes y Servicios -->
                         <div id="dpbs" class="tab-pane">
-                          <img src="assets/fotos_vrin/mir_2203.jpg" alt="Producción de Bienes y Servicios">
+                          <img src="assets/fotos_vrin_redimensionado/mir_2203.jpg" alt="Producción de Bienes y Servicios">
                           <h4 style="text-align: center;">Dirección de Producción de Bienes y Servicios</h4>
                           <p>La Dirección de Producción de Bienes y Servicios se enfoca en la generación de productos y servicios de calidad, contribuyendo al desarrollo económico y social de la región.</p>
                           <a href="/produccion" target="_blank">Ir a la página de la dirección <i class="fa fa-external-link"></i></a>

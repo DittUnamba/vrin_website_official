@@ -520,9 +520,9 @@ block_types:
             <hr>
               <div class="custom-carousel">
                   <div class="carousel-slide" id="carouselTrack">
-                  <img src="assets/fotos_vrin/mir_2199.jpg" alt="Slide 1">
-                  <img src="assets/fotos_vrin/mir_2203.jpg" alt="Slide 2" style="margin-left:180px;">
-                  <img src="assets/fotos_vrin/mir_2175.jpg" alt="Slide 3" style="margin-left:160px;">
+                  <img src="assets/fotos_vrin_redimensionado/mir_2199.jpg" alt="Slide 1">
+                  <img src="assets/fotos_vrin_redimensionado/mir_2203.jpg" alt="Slide 2" style="margin-left:180px;">
+                  <img src="assets/fotos_vrin_redimensionado/mir_2175.jpg" alt="Slide 3" style="margin-left:160px;">
                   </div>
               <button class="carousel-button left" onclick="moveSlide(-1)">❮</button>
               <button class="carousel-button right" onclick="moveSlide(1)">❯</button>
@@ -542,7 +542,9 @@ block_types:
                       <div class="direccion-content">
                           <h3 class="direccion-subtitle">{{cargo_direccion}}</h3>
                           <p class="direccion-description" style="font-size: 20px;">
-                          La Dirección de Innovación y Transferencia Tecnológica es el órgano de línea responsable de la gestión, evaluación, seguimiento y monitoreo de las investigaciones, innovaciones y transferencias tecnológicas, teniendo en cuenta las líneas de investigación establecidas por la universidad.
+                          La Dirección de Incubadora de Empresas es el órgano de línea dependiente del Vicerrectorado de
+                                      Investigación, responsable de dirigir, coordinar y promover la iniciativa de los estudiantes para
+                                      la creación de pequeñas y microempresas de propiedad de los estudiantes.
                           </p>
                           <p class="direccion-contact" style="font-size: 16px;">
                           <b>Director:</b> {{ nombre_completo }} <br>
@@ -550,7 +552,7 @@ block_types:
                           <b>Oficina:</b> {{direccion_oficina}}<br>
                           <b>Horario:</b> {{horario}}
                           </p>
-                          <a href="#funciones" class="direccion-button" data-toggle="modal" data-target="#exampleModalScrollable1">Ver funciones</a>
+                          <a href="#funciones" class="direccion-button" data-toggle="modal" data-target="#exampleModalScrollable">Ver funciones</a>
                       </div>
                       </div>
                   </div>
@@ -574,10 +576,10 @@ block_types:
                                       <b>Correo:</b> incubadorasdeempresas@unamba.edu.pe<br>
                                       <b>Oficina:</b> Biblioteca General, 2° Piso
                                   </p>
-                                  <a href="#funciones-unidad" class="unidad-button" data-toggle="modal" data-target="#exampleModalScrollableUnidad" style="margin-left: 20px; font-size: 16px;">Ver funciones</a>
+                                  <!--<a href="#funciones-unidad" class="unidad-button" data-toggle="modal" data-target="#exampleModalScrollableUnidad" style="margin-left: 20px; font-size: 16px;">Ver funciones</a>-->
                                   </div>
                                   <div class="unidad-image-wrapper">
-                                  <img src="/assets/fotos_vrin/mir_2063.jpg" alt="Jefe Unidad" class="unidad-image" style="width: 500px;">
+                                  <img src="/assets/fotos_vrin_redimensionado/mir_2063.jpg" alt="Jefe Unidad" class="unidad-image" style="width: 500px;">
                                   </div>
                               </div>
                               <!-- Unidad 2 -->

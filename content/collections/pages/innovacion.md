@@ -6,7 +6,7 @@ texto_bienvenida: 'Innovación y Transferencia Tecnológica'
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1740041397
+updated_at: 1740621650
 titulo_pagina: 'Dirección de Innovación y Transferencia Tecnológica - VRIN UNAMBA'
 block_types:
   -
@@ -16,7 +16,7 @@ block_types:
     correo: TRANSFERENCIATECNOLOGICA@UNAMBA.EDU.PE
     direccion_oficina: '2° PISO DE LA BIBLIOTECA GENERAL.'
     horario: '8:00 A.M. – 1:00 PM. Y 2:00 PM. – 3:30 PM.'
-    imagen: fotos_vrin/mir_2079.jpg
+    imagen: fotos_vrin_redimensionado/mir_2079.jpg
     type: director_direcciones_vrin
     enabled: true
     template: |-
@@ -36,7 +36,7 @@ block_types:
             }
 
             .news-carousel .news-item{
-                width: 400px;
+                width: 300px;
                 height: auto;
                 flex: 0 0 30%; /* Mostrar 3 noticias */
                 text-align: center;
@@ -479,9 +479,9 @@ block_types:
       <hr>
         <div class="custom-carousel">
             <div class="carousel-slide" id="carouselTrack">
-            <img src="assets/fotos_vrin/mir_2188.jpg" alt="Slide 1">
-            <img src="assets/fotos_vrin/mir_2052.jpg" alt="Slide 2" style="margin-left:180px;">
-            <img src="assets/fotos_vrin/mir_2220.jpg" alt="Slide 3" style="margin-left:160px;">
+            <img src="assets/fotos_vrin_redimensionado/mir_2188.jpg" alt="Slide 1">
+            <img src="assets/fotos_vrin_redimensionado/mir_2052.jpg" alt="Slide 2" style="margin-left:180px;">
+            <img src="assets/fotos_vrin_redimensionado/mir_2220.jpg" alt="Slide 3" style="margin-left:160px;">
             </div>
         <button class="carousel-button left" onclick="moveSlide(-1)">❮</button>
         <button class="carousel-button right" onclick="moveSlide(1)">❯</button>
@@ -529,14 +529,14 @@ block_types:
                                 Nos enfocamos en impulsar la gestión y preservación de los recursos académicos y científicos producidos en la universidad, garantizando el acceso abierto y la visibilidad global.
                             </p>
                             <p class="unidad-contact" style="margin-left: 20px; font-size: 16px;">
-                                <b>Nombre:</b> Ing. Gleidy Sadith Segundo Gonzales <br>
+                                <b>Nombre:</b> Mag. Yonathan Mamani Coaquira <br>
                                 <b>Correo:</b> repositorio@unamba.edu.pe<br>
                                 <b>Oficina:</b> Biblioteca General, 2° Piso
                             </p>
                             
                             </div>
                             <div class="unidad-image-wrapper">
-                            <img src="/assets/fotos_vrin/mir_2098.jpg" alt="Jefe Unidad" class="unidad-image">
+                            <img src="/assets/doc_renacyt/yonatan_mamani_coaquira.png" alt="Jefe Unidad" class="unidad-image">
                             </div>
                         </div>
                         <!-- Unidad 2 -->
@@ -554,7 +554,7 @@ block_types:
                             
                             </div>
                             <div class="unidad-image-wrapper">
-                            <img src="/assets/fotos_vrin/mir_2091.jpg" alt="Jefe Unidad" class="unidad-image">
+                            <img src="/assets/fotos_vrin_redimensionado/mir_2091.jpg" alt="Jefe Unidad" class="unidad-image">
                             </div>
                         </div>
                         </div>
@@ -747,7 +747,7 @@ block_types:
                     <p style="text-align: center;">Conoce todas las actividades realizadas por la Dirección de Innovación y Transferencia Tecnológica de la UNAMBA.</p>
                 </div>  
               <div class="news-carousel" id="news-carousel">
-                <button class="arrow left" onclick="moveCarousel(-1)">❮</button>
+                <button class="arrow left" onclick="moveCarousel(-1)" style="margin-left: 150px;">❮</button>
                 <div class="carousel-container">
                     {{ collection:noticias }}
                     {{ if direccion_o_vrin == 'Dirección de Innovación y Transferencia Tecnológica' }}
@@ -761,7 +761,7 @@ block_types:
                     {{ /if }}
                     {{ /collection:noticias }}
                 </div>
-                <button class="arrow right" onclick="moveCarousel(1)">❯</button>
+                <button class="arrow right" onclick="moveCarousel(1)" style="margin-right: 150px;">❯</button>
             </div>
 
         </div>

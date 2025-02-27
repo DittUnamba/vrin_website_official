@@ -5,7 +5,7 @@ title: Home
 template: home
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1740363532
+updated_at: 1740622446
 block_types:
   -
     id: m7ap00pr
@@ -499,7 +499,7 @@ block_types:
         <!-- fin acerca de vicerrector -->
       mode: htmlmixed
     cargo: 'Vicerrector de Investigación'
-    imagen_vicerrector: fotos_vrin/mir_2116.jpg
+    imagen_vicerrector: fotos_vrin_redimensionado/mir_2116.jpg
   -
     id: lkabqlir
     titulo_seccion_blog: 'Eventos Vicerrectorado de Investigación'
@@ -880,14 +880,14 @@ block_types:
           <div class="section-header">
             <h2 class="title">Revistas de Investigación UNAMBA</h2>
             <p>Explora las últimas publicaciones de las revistas de Investigación de la UNAMBA</p>
-            <a href="https://revistas.unamba.edu.pe/" class="btn-primary" style="background-color: #6a1b9a;">Ir a Revistas</a>
+            <a href="https://revistas.unamba.edu.pe/" class="btn-primary" style="background-color: #6a1b9a;" target="_blank">Ir a Revistas</a>
           </div>
         <hr>
           <!-- Contenedor de revistas -->
           <div class="journals-container">
             <!-- Revista 1 -->
             <div class="journal-card">
-        	  <a href="https://revistas.unamba.edu.pe/index.php/riqchary">
+        	  <a href="https://revistas.unamba.edu.pe/index.php/riqchary" target="_blank">
         	  	<img src="assets/journalThumbnail_es.jpg" alt="Portada Revista 1" class="journal-image" />
         	  </a>
               
@@ -897,13 +897,13 @@ block_types:
                 <p><strong>Periodicidad:</strong> Semestral</p>
                 <p><strong>ISSN:</strong> 2706-543X (en línea), 2810-8124</p>
                 <p><strong>Acceso:</strong> Abierto (CC BY-NC-ND)</p>
-                <a href="enlace-a-revista1" class="btn-secondary" style="vertical-align: middle; justify-content: center; align-items: center; text-align: center;">Ver Revista</a>
+                <a href="https://revistas.unamba.edu.pe/index.php/riqchary" class="btn-secondary" style="vertical-align: middle; justify-content: center; align-items: center; text-align: center;" target="_blank">Ver Revista</a>
               </div>
             </div>
 
             <!-- Revista 2 -->
             <div class="journal-card">
-        	  <a href="https://revistas.unamba.edu.pe/index.php/micaela">
+        	  <a href="https://revistas.unamba.edu.pe/index.php/micaela" target="_blank">
         	  	<img src="assets/micaela_revista.png" alt="Portada Revista 2" class="journal-image"/>
         	  </a>
               
@@ -913,7 +913,7 @@ block_types:
                 <p><strong>Periodicidad:</strong> Semestral</p>
                 <p><strong>ISSN:</strong> 2955-8646 (en línea), 2709-8990 (impresa)</p>
                 <p><strong>Depósito Legal:</strong> BN - Perú: N° 2020-10220</p>
-                <a href="enlace-a-revista2" class="btn-secondary">Ver Revista</a>
+                <a href="https://revistas.unamba.edu.pe/index.php/micaela" class="btn-secondary" target="_blank">Ver Revista</a>
               </div>
             </div>
           </div>

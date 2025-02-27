@@ -6,7 +6,7 @@ texto_bienvenida: 'Dirección de Institutos de Investigación'
 author: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
 template: home
 updated_by: 06ac68ab-d29f-41e9-9b9a-dd4da3996484
-updated_at: 1740063408
+updated_at: 1740621795
 titulo_pagina: 'Dirección de Institutos de Investigación - VRIN UNAMBA'
 block_types:
   -
@@ -15,10 +15,8 @@ block_types:
     cargo_direccion: 'Director de Institutos de Investigación'
     direccion_oficina: '2° PISO BIBLIOTECA GENERAL.'
     horario: '8:00 A.M. – 1:00 PM. Y 2:00 PM. – 3:30 PM.'
-    imagen: fotos_vrin/mir_2083.jpg
+    imagen: fotos_vrin_redimensionado/mir_2083.jpg
     template: |-
-      
-
       <style>
                   .news-carousel {
                       display: flex;
@@ -478,9 +476,9 @@ block_types:
             <hr>
               <div class="custom-carousel">
                   <div class="carousel-slide" id="carouselTrack">
-                  <img src="assets/fotos_vrin/mir_2182.jpg" alt="Slide 1">
-                  <img src="assets/fotos_vrin/mir_2073.jpg" alt="Slide 2" style="margin-left:180px;">
-                  <img src="assets/fotos_vrin/mir_2216.jpg" alt="Slide 3" style="margin-left:160px;">
+                  <img src="assets/fotos_vrin_redimensionado/mir_2182.jpg" alt="Slide 1">
+                  <img src="assets/fotos_vrin_redimensionado/mir_2073.jpg" alt="Slide 2" style="margin-left:180px;">
+                  <img src="assets/fotos_vrin_redimensionado/mir_2216.jpg" alt="Slide 3" style="margin-left:160px;">
                   </div>
               <button class="carousel-button left" onclick="moveSlide(-1)">❮</button>
               <button class="carousel-button right" onclick="moveSlide(1)">❯</button>
@@ -536,7 +534,7 @@ block_types:
                                   <!--<a href="#funciones-unidad" class="unidad-button" data-toggle="modal" data-target="#exampleModalScrollableUnidad" style="margin-left: 20px; font-size: 16px;">Ver funciones</a>-->
                                   </div>
                                   <div class="unidad-image-wrapper">
-                                  <img src="/assets/fotos_vrin/mir_2045.jpg" alt="Jefe Unidad" class="unidad-image" style="width: 400px; height: auto;">
+                                  <img src="/assets/fotos_vrin_redimensionado/mir_2045.jpg" alt="Jefe Unidad" class="unidad-image" style="width: 400px; height: auto;">
                                   </div>
                               </div>
                               <!-- Unidad 2 -->
@@ -555,7 +553,7 @@ block_types:
                                   <!--<a href="#funciones-unidad" class="unidad-button" data-toggle="modal" data-target="#exampleModalScrollableUnidad" style="font-size: 16px;">Ver funciones</a>-->
                                   </div>
                                   <div class="unidad-image-wrapper">
-                                  <img src="/assets/fotos_vrin/mir_2051.jpg" alt="Jefe Unidad" class="unidad-image" style="width: 400px; height: auto;">
+                                  <img src="/assets/fotos_vrin_redimensionado/mir_2051.jpg" alt="Jefe Unidad" class="unidad-image" style="width: 400px; height: auto;">
                                   </div>
                               </div>
                               </div>
